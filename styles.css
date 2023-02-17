@@ -111,7 +111,7 @@ hr{
    border: 4px solid #494848;
 }
 
-.pageTwo{
+.pageTwo, .pageThree, .pageFour, .pageFive{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -120,27 +120,32 @@ hr{
 .text-container{
     margin: 50px 50px;
     padding: 40px 40px;
-    width: 650px;
+    width: 700px;
 }
 
 .text-pagtwo{
     margin: 50px;
 }
 
-.pageThree{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
-}
-
 .mobile-img{
     width: 400px;
     height: 300px;
 }
-.pageFour{
-    display: flex;
-    justify-content: space-between;
+
+.pageQuestion{
+    display:flex;
+    justify-content: center;
     align-items: center;
     background-color: black;
+    
+}
+
+.subscribe-footer{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.subscribe-text{
+    margin: 10px 10px;
 }
